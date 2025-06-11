@@ -48,7 +48,7 @@ export default function HeroSection() {
               className="text-xl text-muted-foreground mb-6"
               variants={childVariants}
             >
-              Software Engineer 👨‍💻
+              Bachelor i informatikk 👩‍💻|| Master i Master i Globale Studier: Kultur og interkulturell kommunikasjon 🌍
             </motion.p>
 
             <motion.div
@@ -109,7 +109,7 @@ export default function HeroSection() {
             <div className="relative">
               <div className="absolute -inset-1 bg-gradient-to-r from-pink-500 to-purple-500 rounded-full blur opacity-30 group-hover:opacity-100 transition duration-1000 group-hover:duration-200"></div>
               <img
-                src="/profile.jpg"
+                src="/Clara_Bildet.png"
                 alt="Profile"
                 className="w-48 md:w-60 rounded-full relative ring-2 ring-purple-500/50"
                 style={{ objectFit: "cover" }}
@@ -118,22 +118,21 @@ export default function HeroSection() {
           </motion.div>
         </motion.div>
 
+
         <MotionWrapper>
           <div className="bg-gradient-to-r from-purple-500/10 to-pink-500/10 backdrop-blur-sm backdrop-filter p-4 rounded-lg border border-purple-500/20 dark:border-purple-500/10 shadow-sm">
             <p className="text-muted-foreground pl-4 py-2 mb-4 relative">
               <span className="absolute left-0 top-0 h-full w-1 bg-gradient-to-b from-purple-500 to-pink-500 rounded-full"></span>
-              🚀 Passionate software engineer with a versatile skill set
-              spanning multiple domains. I thrive on solving complex challenges
-              across different platforms and environments, adapting quickly to
-              new technologies and methodologies. My holistic approach combines
-              technical expertise with creative problem-solving, allowing me to
-              develop solutions that are both innovative and practical. I'm
-              driven by continuous learning and a commitment to excellence,
-              whether working independently or collaborating with diverse teams
-              to create impactful, scalable solutions.
+              🚀 Bachelor i Programmering og Systemarkitektur fra Universitetet i Oslo, med erfaring i Java, Python, Kotlin og databaser. Har praktisk erfaring med både frontend- og backend-utvikling, inkludert API-integrasjon, CI/CD og moderne verktøy som Git, Postman og GitHub. Deltok i utviklingen av Android-appen «Thrill-cast» i Kotlin, kåret til semesterets beste prosjekt, og har brukt smidige metoder som Scrumban. Erfaring med utvikling av kommandotolker i Java for Python-lignende språk. Holder meg faglig oppdatert gjennom kurs i generativ AI, JavaScript, HTML og CSS, og har interesse for skyteknologi (Azure). Tidligere erfaring fra Bank of China har gitt innsikt i informasjonssikkerhet og samarbeid mellom tekniske og forretningsmessige miljøer. Har undervist barn i programmering og formidlet tekniske konsepter på en engasjerende måte.
             </p>
           </div>
         </MotionWrapper>
+        <img
+            src="/image.png"
+            alt="Profile"
+            className="w-200 mx-auto rounded"
+        />
+       
       </div>
     </section>
   );
