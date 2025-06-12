@@ -48,7 +48,7 @@ export default function HeroSection() {
               className="text-xl text-muted-foreground mb-6"
               variants={childVariants}
             >
-              Bachelor i informatikk 👩‍💻|| Master i Master i Globale Studier: Kultur og interkulturell kommunikasjon 🌍
+              Bachelor i informatikk 👩‍💻||  Master i Globale Studier: Kultur og interkulturell kommunikasjon 🌍
             </motion.p>
 
             <motion.div
